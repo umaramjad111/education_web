@@ -22,7 +22,7 @@ const educaiontypes = [
     }
 ]
     return (
-        <div data-aos="fade-up">
+        <div id="about" data-aos="fade-up">
             
         <section className="pt-5 mt-1">
             <div className="text-center">

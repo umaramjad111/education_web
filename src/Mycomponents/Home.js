@@ -11,7 +11,7 @@ export default function Home() {
 
   
     return (
-        <div>
+        <div id="home">
             <Slider/>
             <About title = "''Educational Quotes''" title2 = "''Types of Education''"/>
             <hr className="container mt-4"/>

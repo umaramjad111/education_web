@@ -19,7 +19,7 @@ export default function Services() {
 
     ]
     return (
-        <div data-aos="fade-up">
+        <div id="services" data-aos="fade-up">
             <section className="service pt-5 mt-1">
                 <div className="container">
                     <div className="row">
