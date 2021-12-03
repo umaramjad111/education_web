@@ -1,6 +1,6 @@
 import React from 'react'
 import educationquote from './data'
-export default function About() {
+export default function About(props) {
 
         //educationtypes
 
@@ -26,7 +26,7 @@ const educaiontypes = [
             
         <section className="pt-5 mt-1">
             <div className="text-center">
-            <h4 className="display-5 fw-bold mt-5">"Education Quote"</h4>
+            <h4 className="display-5 fw-bold mt-5">{props.title}</h4>
             <div className="underline mx-auto"></div>
             </div>
            <section className="sec1">
@@ -48,7 +48,7 @@ const educaiontypes = [
              
              {/* //foreducation types */}
             <div className="text-center">
-            <h4 className="display-5 fw-bold mt-5">"Types of Education"</h4>
+            <h4 className="display-5 fw-bold mt-5">{props.title2}</h4>
             <div className="underline mx-auto"></div>
             </div>
             <div className="container">
