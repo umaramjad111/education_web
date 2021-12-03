@@ -19,11 +19,11 @@ function App() {
   return (
     <>
     
-    <Navbar title ="Education Learning" />
-    <Route exact path="/"><Home/></Route>
-    <Route exact path="#about"> <About  title = "''Educational Quotes''" title2 = "''Types of Education''"/> </Route>
-    <Route exact path="#services"><Services/></Route>
-    <Route exact path="#contact"><Contact/></Route>
+    <Navbar title = "Education Learning"/>
+    <Route exact path="/" component={Home}/>
+    <Route exact path="#about" component={About}/>
+    <Route exact path="#services" component={Services}/>
+    <Route exact path="#contact" component={Contact}/>
     <Footer/>
       {/* <Router>
       <Navbar title ="Education Learning" />
