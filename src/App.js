@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     
-    <Navbar title="Education Learniing"/>
+    <Navbar titlemain = "Education Learniing"/>
     <Route exact path="/" component={Home}/>
     {/* <Route exact path="#about" component={About}/> */}
     <Route exact path="#about">
