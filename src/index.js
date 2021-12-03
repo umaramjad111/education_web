@@ -6,9 +6,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
+
   <HashRouter>
+
     <App />
+    
   </HashRouter>,
+
   document.getElementById('root')
 );
 
