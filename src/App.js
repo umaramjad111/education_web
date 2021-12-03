@@ -18,8 +18,14 @@ import Contact from './Mycomponents/Contact';
 function App() {
   return (
     <>
-    <div>
-      <Router>
+    
+    <Navbar title ="Education Learning" />
+    <Route exact path="/"><Home/></Route>
+    <Route exact path="#about"> <About  title = "''Educational Quotes''" title2 = "''Types of Education''"/> </Route>
+    <Route exact path="#services"><Services/></Route>
+    <Route exact path="#contact"><Contact/></Route>
+    <Footer/>
+      {/* <Router>
       <Navbar title ="Education Learning" />
       <Switch>
         <Route exact path="/">
@@ -36,8 +42,8 @@ function App() {
         </Route>
       </Switch>
       <Footer/>
-      </Router>
-    </div>
+      </Router> */}
+    
     </>
 
   );
