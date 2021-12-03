@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div id="contact">
+        <div>
             <section className="contact pt-5 mt-1">
                 <div className="container">
                 <div className="text-center">
